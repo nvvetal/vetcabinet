@@ -1,0 +1,3 @@
+vet_cabinet_assetic_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: VetCabinetAsseticBundle:Default:index }

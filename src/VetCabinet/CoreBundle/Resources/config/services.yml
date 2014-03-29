@@ -1,0 +1,7 @@
+parameters:
+#    vet_cabinet_core.example.class: VetCabinet\CoreBundle\Example
+
+services:
+#    vet_cabinet_core.example:
+#        class: %vet_cabinet_core.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
