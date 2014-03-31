@@ -1,3 +1,7 @@
+vet_cabinet_frontend:
+    resource: "@VetCabinetFrontendBundle/Resources/config/routing.yml"
+    prefix:   /
+
 vet_cabinet_assetic:
     resource: "@VetCabinetAsseticBundle/Resources/config/routing.yml"
     prefix:   /
@@ -24,3 +28,6 @@ fos_oauth_server_token:
 
 fos_oauth_server_authorize:
     resource: "@FOSOAuthServerBundle/Resources/config/routing/authorize.xml"
+
+fos_js_routing:
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"

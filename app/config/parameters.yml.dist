@@ -17,3 +17,6 @@ parameters:
 
     facebook_id: ~
     facebook_secret: ~
+
+    node_bin: ~
+    node_paths: ~

@@ -37,6 +37,7 @@ class AppKernel extends Kernel
             new VetCabinet\CoreBundle\VetCabinetCoreBundle(),
             new VetCabinet\ApiBundle\VetCabinetApiBundle(),
             new VetCabinet\AsseticBundle\VetCabinetAsseticBundle(),
+            new VetCabinet\FrontendBundle\VetCabinetFrontendBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
