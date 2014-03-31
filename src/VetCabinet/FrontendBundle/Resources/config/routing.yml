@@ -1,0 +1,3 @@
+welcome:
+    pattern:  /
+    defaults: { _controller: VetCabinetFrontendBundle:Welcome:index }
