@@ -13,3 +13,7 @@ parameters:
 
     locale:            en
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+
+    facebook_id: ~
+    facebook_secret: ~

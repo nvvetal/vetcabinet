@@ -25,6 +25,7 @@ class AppKernel extends Kernel
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
             new HWI\Bundle\OAuthBundle\HWIOAuthBundle(),
+            new Mopa\Bundle\BootstrapBundle\MopaBootstrapBundle(),
 //admin
             new Sonata\CoreBundle\SonataCoreBundle(),
             new Sonata\BlockBundle\SonataBlockBundle(),
@@ -32,7 +33,7 @@ class AppKernel extends Kernel
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
             new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
             new Sonata\AdminBundle\SonataAdminBundle(),
-//project,
+//project
             new VetCabinet\CoreBundle\VetCabinetCoreBundle(),
             new VetCabinet\ApiBundle\VetCabinetApiBundle(),
             new VetCabinet\AsseticBundle\VetCabinetAsseticBundle(),
