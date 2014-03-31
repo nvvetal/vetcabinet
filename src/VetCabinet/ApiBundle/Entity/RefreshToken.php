@@ -19,7 +19,7 @@ class RefreshToken extends BaseRefreshToken
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    private $id;
+    protected $id;
 
     /**
      * @ORM\ManyToOne(targetEntity="Client")

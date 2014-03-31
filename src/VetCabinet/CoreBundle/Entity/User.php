@@ -1,16 +1,16 @@
 <?php
 
-namespace VetCabinet\ApiBundle\Entity;
-use FOS\OAuthServerBundle\Entity\Client as BaseClient;
+namespace VetCabinet\CoreBundle\Entity;
+
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Client
+ * User
  *
  * @ORM\Table()
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="VetCabinet\CoreBundle\Entity\UserRepository")
  */
-class Client extends BaseClient
+class User
 {
     /**
      * @var integer
@@ -19,7 +19,7 @@ class Client extends BaseClient
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    protected $id;
+    private $id;
 
 
     /**
@@ -30,11 +30,5 @@ class Client extends BaseClient
     public function getId()
     {
         return $this->id;
-    }
-
-    public function __construct()
-    {
-        parent::__construct();
-        // your own logic
     }
 }
